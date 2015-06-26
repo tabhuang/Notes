@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		E5F50F1F1B3CFB56001B182D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F50F1E1B3CFB56001B182D /* AppDelegate.swift */; };
 		E5F50F221B3CFB56001B182D /* Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5F50F201B3CFB56001B182D /* Notes.xcdatamodeld */; };
-		E5F50F241B3CFB56001B182D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F50F231B3CFB56001B182D /* ViewController.swift */; };
 		E5F50F271B3CFB56001B182D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F50F251B3CFB56001B182D /* Main.storyboard */; };
 		E5F50F291B3CFB56001B182D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F50F281B3CFB56001B182D /* Images.xcassets */; };
 		E5F50F2C1B3CFB56001B182D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F50F2A1B3CFB56001B182D /* LaunchScreen.xib */; };
 		E5F50F381B3CFB56001B182D /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F50F371B3CFB56001B182D /* NotesTests.swift */; };
+		E5F50F441B3CFE34001B182D /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F50F431B3CFE34001B182D /* NotesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +31,13 @@
 		E5F50F1D1B3CFB56001B182D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5F50F1E1B3CFB56001B182D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5F50F211B3CFB56001B182D /* Notes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notes.xcdatamodel; sourceTree = "<group>"; };
-		E5F50F231B3CFB56001B182D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5F50F261B3CFB56001B182D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5F50F281B3CFB56001B182D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E5F50F2B1B3CFB56001B182D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E5F50F311B3CFB56001B182D /* NotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F50F361B3CFB56001B182D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5F50F371B3CFB56001B182D /* NotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTests.swift; sourceTree = "<group>"; };
+		E5F50F431B3CFE34001B182D /* NotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +80,11 @@
 			isa = PBXGroup;
 			children = (
 				E5F50F1E1B3CFB56001B182D /* AppDelegate.swift */,
-				E5F50F231B3CFB56001B182D /* ViewController.swift */,
 				E5F50F251B3CFB56001B182D /* Main.storyboard */,
 				E5F50F281B3CFB56001B182D /* Images.xcassets */,
 				E5F50F2A1B3CFB56001B182D /* LaunchScreen.xib */,
 				E5F50F201B3CFB56001B182D /* Notes.xcdatamodeld */,
+				E5F50F431B3CFE34001B182D /* NotesTableViewController.swift */,
 				E5F50F1C1B3CFB56001B182D /* Supporting Files */,
 			);
 			path = Notes;
@@ -215,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5F50F241B3CFB56001B182D /* ViewController.swift in Sources */,
 				E5F50F1F1B3CFB56001B182D /* AppDelegate.swift in Sources */,
 				E5F50F221B3CFB56001B182D /* Notes.xcdatamodeld in Sources */,
+				E5F50F441B3CFE34001B182D /* NotesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
