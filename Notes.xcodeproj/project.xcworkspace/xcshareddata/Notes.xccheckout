@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E9C61A6A-AAD2-4717-926F-5B7CFDE39327</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Notes</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1624D98589DBC1268257B801F2BDDEE94C0F1AB2</key>
 		<string>https://github.com/tabhuang/Notes.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Notes.xcodeproj/project.xcworkspace</string>
+	<string>Notes.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1624D98589DBC1268257B801F2BDDEE94C0F1AB2</key>
